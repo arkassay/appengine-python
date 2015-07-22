@@ -1,0 +1,85 @@
+@import "//www.google.com/css/maia.css";
+
+#videoOne,#videoTwo,#videoThree,#videoFour,#videoFive,#videoSix{
+	opacity:0;border:1px solid #ccc;transition:1.5s;height:1px;width:306px
+}
+
+.maia-col-4{
+	font-family:Arial !important;font-size:11px
+	}
+
+.maia-col-4 h2 {
+    font-family:"open sans",Arial,sans-serif!important;
+    margin:4em 0 -3em
+}
+
+.maia-col-4 header {
+    min-height:135px
+}
+
+.maia-col-4 header h1 {
+    margin:.5em 0 .2em
+}
+
+.maia-col-4 header h2 {
+    font-size:110%;
+    line-height:1.8;
+    margin:0 0 2em
+}
+
+.maia-col-4 header h2 {
+    font-weight:400
+}
+
+.maia-col-4 div {
+    text-align:left!important
+}
+
+.maia-col-4 img {
+    border:2px solid #f0f0f0;
+    border-radius:100px;
+    box-shadow:inset 0 0 0 10px rgba(0,0,0,.05)
+}
+
+.maia-col-4 img.mobile {
+    display:none
+}
+
+.maia-col-4>img {
+    border:1px solid #000;
+    border-radius:0;
+    display:block;
+    margin-bottom:15px
+}
+
+.nopadding{
+    padding:0;
+    margin:0;
+}
+
+#cloudMDform h2 {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+#cloudMDform div.maia-col-6{
+    min-height:40px;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+@media screen and (max-width:767px){
+	.maia-col-4>img{
+		width:320px
+	}
+	.maia-col-4 img.mobile{
+		display:block
+	}
+	.maia-col-4 img.video,.maia-col-4 img.desktop{
+		display:none
+	}
+	.maia-col-4 header{
+		min-height:auto
+	}
+}
