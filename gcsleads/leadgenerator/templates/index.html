@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <body>
+    <form class="form-horizontal" role="form" id="cloudMDform">
+        <div class="maia-col-12 nopadding">
+        <h2 style="margin-top:0px;">Company Information</h2>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>What are you trying to accomplish on GCP?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <select name="GCP Goal">
+                    <option value="1">Storage/Backup/Archiving</option>
+                    <option value="1">Dev/Test</option>
+                    <option value="1">HPC/Batch Processing</option>
+                    <option value="1.5">Video Streaming</option>
+                    <option value="0.5">Web Application/Hosting</option>
+                    <option value="1">Mobile App</option>
+                    <option value="1.5">Analytics/BI</option>
+                    <option value="1">SAAS</option>
+                    <option value="1.5">Gaming</option>
+                    <option value="1">IoT</option>
+                    <option value="1.5">Rendering</option>
+                    <option value="2">Genomic Variant Calling</option>
+                    <option value="1">Simulation</option>
+                    <option value="1">Translate/Localization</option>
+                    <option value="0">Other</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>What's your role on the project?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <select name="Project Role">
+                    <option value="1">Architecture & Budget Authority</option>
+                    <option value="0.5">Architecture Authority Only</option>
+                    <option value="0.5">Budget Authority Only</option>
+                    <option value="0">Evaluator</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Domain</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <input type="text" class="freeForm" name="" value="">
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>How many employees work for your company?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <input type="text" class="freeForm" name="" value="">
+            </div>
+        </div>
+
+         <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Where is your company Headquartered</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <input type="text" class="freeForm" name="" value="">
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>If California, what is the zip code?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <input type="text" class="freeForm" name="" value="">
+            </div>
+        </div>
+
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Currently used infrastructure?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <input type="text" class="freeForm" name="" value="">
+            </div>
+        </div>
+
+
+        <div class="maia-col-12 nopadding">
+        <h2>Infrastructure Needs</h2>
+        </div>
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>How are you forecasting your resource needs to grow over the next 12 months?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <select name="Forcasting next 12 resource needs">
+                    <option value="3">High</option>
+                    <option value="1.5">Moderate</option>
+                    <option value="0">Static</option>
+                    <option value="-1">Negative</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Have you set aside funds for this project?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <select name="Set Aside Funds">
+                    <option value="1">Identified</option>
+                    <option value="-1">Not Identified</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>What compelled you to reach out?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <select name="Why Reached Out">
+                    <option value="2.5">Forced migration</option>
+                    <option value="0.5">Pricing</option>
+                    <option value="1.5">Moving from on-prem to cloud</option>
+                    <option value="1.75">New application</option>
+                    <option value="0.25">Executive request</option>
+                    <option value="1">Existing Google relationship</option>
+                    <option value="0.5">Dissatisfaction with competitor</option>
+                    <option value="0.5">Diversify cloud vendors</option>
+                    <option value="1.5">Security Issue</option>
+                    <option value="1.5">Unique feature/performance</option>
+                    <option value="0">Other</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Pricing Calculator Amount</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <input type="text" class="freeForm" name="Infrastructure_Needs" value="" class="freeForm">
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Pricing Calculator Link</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <input type="text" class="freeForm" name="Infrastructure_Needs" value="" class="freeForm">
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Are you considering other cloud providers?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <select name="Other Cloud Providers">
+                    <option value="1">TDB</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>If everything went well, how many months would it take you to fully migrate this project to GCP?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <select name="GCP Migration Months">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>What are your infrastructure needs on GCP?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <textarea type="text" class="freeForm" name="Infrastructure_Needs" value=""></textarea>
+            </div>
+        </div>
+
+
+
+        <div class="maia-col-12 nopadding">
+        <h2>Project Information</h2>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>What does your project team look like?</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <textarea type="text" class="freeForm" name="" value=""></textarea>
+            </div>
+        </div>
+
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Project Notes</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <textarea type="text" class="freeForm" name="" value=""></textarea>
+            </div>
+        </div>
+
+        <div class="maia-col-12 nopadding">
+            <div class="maia-col-6 nopadding">
+                <label>Additional Technical Questions</label>
+            </div>
+            <div class="maia-col-6 nopadding">
+                <textarea type="text" class="freeForm" name="" value=""></textarea>
+            </div>
+        </div>
+
+      </form>
+
+    <div class="maia-col-12 nopadding">
+       <button id="processForm">Process Form</button>
+    </div>
+
+
+    <div class="maia-col-12 nopadding">
+        <div class="maia-col-6"id="formResultsSelect">
+        </div>
+        <div class="maia-col-6" id="formResultsCopy">
+        </div>
+    </div>
+  </body>
+</html>
+{% endautoescape %}
